@@ -16,4 +16,18 @@ header {
   overflow: hidden;
   background: #CDCD4C; }
 
+.menu ul li {
+  float: left;
+  display: block; }
+  .menu ul li a {
+    text-decoration: none;
+    padding: .7rem;
+    width: 100%;
+    height: 100%; }
+    .menu ul li a:hover {
+      background: #CD60C6; }
+
+.has-child {
+  position: relative; }
+
 /*# sourceMappingURL=style.css.map */
