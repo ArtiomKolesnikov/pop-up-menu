@@ -13,29 +13,34 @@
 header {
   margin: 0 auto;
   width: 100%;
-  overflow: hidden;
   background: #CDCD4C; }
 
 .menu ul li {
   float: left; }
+  .menu ul li:hover {
+    background: #CD60C6;
+    transition: all 1s; }
+    .menu ul li:hover .dropdown {
+      max-height: 300px; }
   .menu ul li a {
     text-decoration: none;
     padding: .7rem;
     display: block; }
-    .menu ul li a:hover {
-      background: #CD60C6;
-      transition: all 1s; }
 
 .has-child {
   position: relative; }
 
 .dropdown {
-  max-height: 0px; }
+  float: left;
+  top: 100%;
+  position: absolute;
+  background-color: cadetblue;
+  left: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 1s; }
   .dropdown li {
-    float: left;
     display: block;
-    left: 0px;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

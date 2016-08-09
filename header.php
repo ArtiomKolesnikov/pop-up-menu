@@ -9,7 +9,13 @@
                     <li><a href="#">DELL</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contacts</a></li>
+            <li class="has-child"><a href="#">Contacts</a>
+                <ul class="dropdown">
+                    <li><a href="#">email</a></li>
+                    <li><a href="#">address</a></li>
+                    <li><a href="#">phone</a></li>
+                </ul>
+            </li>
             <li><a href="#">Enter</a></li>
         </ul>
     </menu>
